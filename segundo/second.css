@@ -1,0 +1,801 @@
+.cuerpo{
+    justify-content: center;
+    display: grid;
+   
+  }
+
+  a{
+    position: relative;
+    color: aliceblue !important;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    color: chocolate !important;
+  }
+
+  .botonpg{
+    margin-top: 50px;
+  }
+
+  .botoncito {
+    position: absolute;
+    top: 2px;
+    left: 400px;
+    margin: 50px;
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #888888;
+    transition: box-shadow 0.3s ease;
+   left: 1000px;
+  }
+
+  .audio{
+    left: 200px;
+  }
+  
+  .boton:hover{
+      box-shadow: 0px 0px 20px #888888;
+  }
+   .botonprincipiol{
+    position: relative;
+   
+    height: 200px;
+  }
+
+
+
+  .texto1{
+    position: relative;
+    width: 1000px;
+    top: 50%;
+    text-align: center;
+  }
+  
+  .list1{
+    position: relative;
+    color: aliceblue;
+    list-style: none;
+    text-align: center;
+    left: -15px;
+  }
+
+  h3{
+    color: aliceblue;
+    text-align: center;
+  }
+  
+  p{
+    color: aliceblue;
+    text-align: center;
+  }
+  
+
+  .cap5{
+    position: relative;
+    top: 30%;
+  }
+  
+  
+  
+  .fondo5{
+      background-image: url();
+      background-size: cover;
+      position: relative;
+      width: 1050px;
+      justify-content: center;
+      display: flex;   
+      
+  }
+  .pelea{
+    background-size: cover;
+    position: relative;
+   
+    justify-content: center;
+    display: flex;   
+    
+  }
+
+  .pelea1{      
+    background: url(../img/pelea1.png);  
+    position: absolute;  
+    top: -530px;
+    left: 175px;
+    width: 160px;
+    height: 240px;
+    animation: pelea1 3s steps(8) infinite;
+    animation-play-state: paused;
+}
+
+
+@keyframes pelea1{
+    100%{
+        background-position: 1280px;
+    }
+}
+
+.pelea2{      
+  background: url(../img/pelea2.png);  
+  position: absolute;  
+  top: -530px;
+  left: 275px;
+  width: 160px;
+  height: 240px;
+  animation: pelea2 3s steps(8) infinite;
+  animation-play-state: paused;
+}
+
+
+@keyframes pelea2{
+  100%{
+      background-position: -1280px;
+  }
+}
+
+
+.pelea3{      
+  background: url(../img/pelea3.png);  
+  position: absolute;  
+  top: -530px;
+  left: 600px;
+  width: 78px;
+  height: 135px;
+  animation: pelea3 3s steps(8) infinite;
+  animation-play-state: paused;
+}
+
+
+@keyframes pelea3{
+  100%{
+      background-position: 672px;
+  }
+}
+
+
+
+.pelea4{      
+  background: url(../img/pelea4.png);  
+  position: absolute;  
+  top: -530px;
+  left:650px;
+  width: 77px;
+  height: 135px;
+  animation: pelea4 3s steps(8) infinite;
+  animation-play-state: paused;
+}
+
+
+@keyframes pelea4{
+  100%{
+      background-position: 672px;
+  }
+}
+
+.polvo{
+  background: url(../img/polvo.png);
+  position: absolute;
+  width: 90px;
+  height: 60px;
+  top: -450px;
+  left: 590px;
+  opacity: 0;
+  animation: aparecer 1s ease infinite;
+  animation-play-state: paused;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+.polvo2{
+  background: url(../img/polvo.png);
+  position: absolute;
+  width: 90px;
+  height: 60px;
+  top: -450px;
+  left: 670px;
+  opacity: 0;
+  animation: aparecer 1s ease infinite;
+  animation-play-state: paused;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.polvo3{
+  background: url(../img/polvo.png);
+  position: absolute;
+  width: 90px;
+  height: 60px;
+  top: -340px;
+  left: 200px;
+  opacity: 0;
+  animation: aparecer 1s ease infinite;
+  animation-play-state: paused;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.polvo4{
+  background: url(../img/polvo.png);
+  position: absolute;
+  width: 90px;
+  height: 60px;
+  top: -340px;
+  left: 350px;
+  opacity: 0;
+  animation: aparecer 1s ease infinite;
+  animation-play-state: paused;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+.tropa1{
+  position: absolute;
+  width: 77px;
+  top: -700px;
+  left: 20px;
+  animation-name: move-opacity;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-play-state: paused;
+}
+
+@keyframes move-opacity {
+  0% {
+    transform: translateX(0px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(40px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(80px);
+    opacity: 0;
+  }
+}
+
+.tropa2{
+  position: absolute;
+  width: 77px;
+  top: -700px;
+  left: 500px;
+  animation-name: move-opacity2;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-play-state: paused;
+}
+
+@keyframes move-opacity2 {
+  0% {
+    transform: translateX(0px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(-40px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-80px);
+    opacity: 0;
+  }
+}
+
+.alejandro51{
+  position: absolute;
+  width: 120px;
+  top: -820px;
+  left: 650px;
+  opacity: 0;
+  animation: aparecer 1s ease-in-out forwards;
+  animation-play-state: paused;
+}
+
+@keyframes aparecer {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.dario51{
+  position: absolute;
+  width: 100px;
+  top: -750px;
+  left: 900px;
+  opacity: 0;
+  animation: aparecer 1s ease-in-out forwards;
+  animation-play-state: paused;
+}
+
+@keyframes aparecer {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.alejandro52{
+  position: absolute;
+  width: 280px;
+  top: -270px;
+  left: 650px;
+  opacity: 0;
+  animation: aparecer 1s ease-in-out forwards;
+  animation-play-state: paused;
+}
+
+@keyframes aparecer {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.dario52{
+  position: absolute;
+  width: 300px;
+  top: -290px;
+  left: 120px;
+  animation: rebote 1s infinite;
+  animation-play-state: paused;
+}
+
+@keyframes rebote {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.polvo5{
+  position: absolute;
+  width: 300px;
+  top: -290px;
+  left: 120px;
+  opacity: 0;
+  animation: polvo2 1s ease infinite;
+  animation-play-state: paused;
+ 
+}
+@keyframes polvo2 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+.linea5{
+  position: absolute;
+  width: 525px;
+  top: -10px;
+  left: 0px;
+}
+
+.tx51{
+  position: absolute;
+  width: 200px;
+  top: -826px;
+  left: 0px;
+
+}
+.tx52{
+  position: absolute;
+  width: 200px;
+  top: -826px;
+  left: 415px;
+
+}
+.tx53{
+  position: absolute;
+  width: 100px;
+  top: -826px;
+  left: 790px;
+  opacity: 0;
+  animation: aparecer 1s ease-in-out forwards;
+  animation-play-state: paused;
+}
+
+@keyframes aparecer {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.tx54{
+  position: absolute;
+  width: 100px;
+  top: -660px;
+  left: 770px;
+  opacity: 0;
+  animation: aparecer 1s ease-in-out forwards;
+  animation-play-state: paused;
+}
+
+@keyframes aparecer {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.tx55{
+  position: absolute;
+  width: 100px;
+  top: -270px;
+  left: 350px;
+
+}
+.bling{
+  position: absolute;
+  width: 1000px;
+  top: -550px;
+  left: 20px;
+  opacity: 0;
+  animation: bling 1s ease infinite;
+  animation-play-state: paused;
+ 
+}
+@keyframes bling {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+
+/*capitulo 6*/
+
+
+  .texto1{
+    position: relative;
+    width: 1000px;
+    top: 50%;
+    text-align: center;
+  }
+  
+
+  .list2{
+    top: 270px;
+    margin: 5%;
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    list-style: none;
+    left: -30px;
+  }
+  
+  .cap6{
+    position: relative;
+    top: 35%;
+  }
+  
+  
+  
+  .fondo6{
+      background-image: url();
+      background-size: cover;
+      position: relative;
+      width: 1050px;
+      justify-content: center;
+      display: flex;   
+      top: 80px;
+      
+  }
+
+  .caballo6{
+    background: url(../img/caballo6.png);
+    position: absolute;
+   width: 59px;
+   height: 116px;
+   top: 220px;
+   left: 20px;
+   animation: caballo6 2s steps(5) infinite;
+  animation-play-state: paused;
+ }
+ 
+ 
+ @keyframes caballo6{
+   100%{
+       background-position: 299px;
+   }
+ }
+
+ .alejandro6{
+  background: url(../img/alejandro6.png);
+  position: absolute;
+  width: 153px;
+  height: 247px;
+  top: 372px;
+  left:60px;
+  animation: alejandro6 1.5s steps(4) infinite;
+ animation-play-state: paused;
+}
+
+
+@keyframes alejandro6{
+  100%{
+      background-position: 590px;
+  }
+}
+
+.moneda{
+  position: absolute;
+  width: 153px;
+  top: 450px;
+  left:460px;
+  animation-name: girar;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-play-state: paused;
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.sol{
+  position: absolute;
+  width: 95px;
+  top: 80px;
+  left:416px;
+  opacity: 0;
+  animation: sol 2s ease infinite;
+}
+@keyframes sol {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.asia{
+  position: absolute;
+  width: 200px;
+  top: 53px;
+}
+.mar{
+  position: absolute;
+  width: 200px;
+  top: 53px;
+  left: 850px;
+}
+.egipto{
+  position: absolute;
+  width: 200px;
+  top: 344px;
+  left: 300px;
+}
+.india{
+  position: absolute;
+  width: 300px;
+  left: 150px;
+}
+
+
+
+
+  /*capitulo 7*/
+
+
+  .list3{
+    top: 270px;
+    margin: 5%;
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    list-style: none;
+    left: -30px;
+  }
+  
+  .cap7{
+    position: relative;
+    top: 35%;
+  }
+  
+  
+  
+  .fondo7{
+      
+      background-size: cover;
+      position: relative;
+      width: 1050px;
+      justify-content: center;
+      display: flex;   
+      top: 80px;
+      
+  }
+
+  .texto7{
+    position: absolute;
+    top: 80px;
+    width: 500px;
+    opacity: 0;
+    animation: texto7 1s ease-in-out forwards;
+    animation-play-state: paused;
+  }
+  
+  @keyframes texto7 {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .nube{
+    position: absolute;
+    top: 90px;
+    width: 500px;
+    left: 550px;
+    animation-name: nube, nubes;
+  animation-duration: 2s, 2s;
+  animation-timing-function: ease-in-out, ease-in-out;
+  animation-delay: 2s, 2s;
+  animation-iteration-count: infinite, infinite;
+  animation-direction: alternate, normal;
+  animation-play-state: paused;
+  }
+
+ 
+@keyframes nube {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+
+@keyframes nubes {
+  0% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-2px);
+  }
+  40% {
+    transform: translateY(0);
+  }
+  60% {
+    transform: translateY(-2px);
+  }
+  80% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-2);
+  }
+}
+
+.logokyria{
+  position: absolute;
+  width: 100px;
+  top: 100px;
+  left: 750px;
+}
+
+.personajes{
+  background: url(../img/personajes.png);
+  position: absolute;
+  width: 260px;
+  height: 439px;
+  top: 180px;
+  left: 654px;
+  animation: personajes 10s steps(5) infinite;
+  animation-play-state: paused;
+ }
+ 
+ 
+ @keyframes personajes{
+   100%{
+       background-position: 1393px;
+   }
+ }
+
+
+
+
+
+ /*finish*/
+
+
+ .boton {
+  position: absolute;
+  top: 400px;
+  left: 400px;
+  margin: 50px;
+  display: inline-block;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #888888;
+  transition: box-shadow 0.3s ease;
+}
+
+.boton:hover{
+    box-shadow: 0px 0px 20px #888888;
+}
+ .botonfinal{
+  position: relative;
+  justify-content: center;
+  height: 200px;
+}
+
+
+.logo1{
+  position: relative;
+  height: 500px;
+}
+
+.logofin{
+  position: absolute;
+  left: 495px;
+  top: 400px;
+}
